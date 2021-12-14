@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Greet from './components/Greet';
+import Message from './components/Message';
+import Button from './components/Button';
 
 function App() {
   return (
@@ -7,8 +10,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Xbox sign out
+          
         </p>
+        <Button/>
+        <Greet name = "Fat" heroName = "Beef"/>
+        <Message/>
+        <Greet name = "Joe" heroName = "Chicken"/>
+        <Greet name = "Mama" heroName = "Shrimp"/>
         <a
           className="App-link"
           href="https://reactjs.org"
